@@ -1,20 +1,20 @@
-// const teachers = [ [34, 43], [56, 70] ];
+// const array = [ [34, 43], [56, 70] ];
 
-// for (let item of teachers) {
-//     console.log(item);
-// }
+// let summ = 0;
 
-// let sum = 0;
-// for (let item of teachers) {
-//     for (let element of teachers) {
-//         sum += element;
+// for (let i = 0; i < array.length; i++) {
+//     for (let j = 0; j < array[i].length; j++){
+//         console.log(array[i][j]);
 //     }
 // }
-// console.log("сумма всех элементов двумерного массива:", sum);
 
-// for (let item of teachers) {
-//     console.log("элементов во вложенном массиве:", teachers.length);
+// for (let i = 0; i < array.length; i++) {
+//     console.log(`кол-во элементов в ${i+1} массиве = ${array[i].length}`);
+//     for (let j = 0; j < array[i].length; j++) {
+//         summ += array[i][j];
+//     }
 // }
+// console.log(`Сумма элементов массива = ${summ}.`);
 
 
 // const users = [
