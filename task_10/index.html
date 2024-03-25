@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Добавление новой услуги</h1>
+        <input type="text" id="serviceName" placeholder="Название услуги">
+        <input type="text" id="servicePrice" placeholder="Стоимость">
+        <input type="text" id="serviceDuration" placeholder="Продолжительность">
+        <textarea id="serviceDescription" placeholder="Описание"></textarea>
+        <input type="text" id="serviceImage" placeholder="Ссылка на изображение">
+        <button onclick="addService()">Добавить услугу</button>
+    </div>
+
+    <div id="servicesContainer" class="container">
+    </div>
+</body>
+
+</html>
+
